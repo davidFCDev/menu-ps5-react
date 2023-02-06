@@ -1,8 +1,8 @@
 import React, { createContext, useState } from 'react';
-import { games } from './constants';
 import styles from './style';
-import Header from "./components/Header";
 import './index.css';
+import { games } from './constants';
+import Header from "./components/Header";
 import Home from './routes/Home';
 import Media from './routes/Media';
 import Settings from './routes/Settings';
@@ -33,7 +33,7 @@ function App() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className='screen'
+        className='App screen'
         style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>

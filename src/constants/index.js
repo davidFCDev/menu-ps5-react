@@ -57,16 +57,6 @@ export const games = [
         audio: audioDestiny
     },
     {
-        id: 'fallguys',
-        name: 'Fall Guys',
-        text: '',
-        img: logoFallguys,
-        bg: fondoFallguys,
-        avatar: 'https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/18ebf96a2f92ee2fb5a254536239cc38.png',
-        card:'https://cdn.vox-cdn.com/thumbor/4gToPomzRhicdHnGKRMC-6Cd-9k=/0x0:1920x1080/1200x800/filters:focal(800x142:1106x448)/cdn.vox-cdn.com/uploads/chorus_image/image/67156804/Fall_Guys___Pre_Alpha_Screen_3.0.png',
-        audio: audioFallguys
-    },
-    {
         id: 'godofwar',
         name: 'God of War:',
         text: 'Father and son',
@@ -95,6 +85,16 @@ export const games = [
         avatar: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a58a7719-0dcf-4e0b-b7bb-d2b725dbbb8e/deiulh2-e958d335-e034-4117-8cdb-329a9a4e8562.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E1OGE3NzE5LTBkY2YtNGUwYi1iN2JiLWQyYjcyNWRiYmI4ZVwvZGVpdWxoMi1lOTU4ZDMzNS1lMDM0LTQxMTctOGNkYi0zMjlhOWE0ZTg1NjIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bBH1ZVe8LUIMnFR5NMxdauiz1E2-fgV4NrgX4AcNRA8',
         card:'https://s.yimg.com/uu/api/res/1.2/CmOJpI4QsltAz8QrumJaHQ--~B/Zmk9ZmlsbDtoPTUwMjt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://o.aolcdn.com/hss/storage/midas/295510e0b981fd917d4481268973f176/205372354/spidemandem-ed.jpg.cf.jpg',
         audio: audioSpiderman
+    },
+    {
+        id: 'fallguys',
+        name: 'Fall Guys',
+        text: '',
+        img: logoFallguys,
+        bg: fondoFallguys,
+        avatar: 'https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/18ebf96a2f92ee2fb5a254536239cc38.png',
+        card:'https://cdn.vox-cdn.com/thumbor/4gToPomzRhicdHnGKRMC-6Cd-9k=/0x0:1920x1080/1200x800/filters:focal(800x142:1106x448)/cdn.vox-cdn.com/uploads/chorus_image/image/67156804/Fall_Guys___Pre_Alpha_Screen_3.0.png',
+        audio: audioFallguys
     },
 ]
 

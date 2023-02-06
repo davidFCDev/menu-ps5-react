@@ -18,9 +18,14 @@
   scroll-behavior: smooth;
 }
 
+.App {
+  transition: opacity 1s ease-in-out, background-image 1s ease-in-out;
+}
+
 .screen {
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #14101d;
   overflow: hidden;
   height: 100vh;
 }

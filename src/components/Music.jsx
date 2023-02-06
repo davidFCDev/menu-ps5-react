@@ -8,12 +8,12 @@ const Music = ({ audio }) => {
         const handleMuteUnmute = () => {
         setIsMuted(!isMuted);
         };
-    
+
         return (
         <>
             <ReactAudioPlayer
                 src={audio}
-                autoPlay
+                autoPlay={true}
                 controls={false}
                 muted={isMuted}
             />
