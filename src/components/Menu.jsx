@@ -54,16 +54,5 @@ const Menu = ({ games, onGameSelect }) => {
     )
 }
 
-const styles = `
-    @keyframes glow {
-        from {
-        box-shadow: -100px 0px 5px white;
-        }
-        to {
-        box-shadow: 100px 0px 20px yellow;
-        }
-    }
-`;
-
 export default Menu
 
