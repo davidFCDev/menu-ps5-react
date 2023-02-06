@@ -15,7 +15,7 @@ Proyecto en ReactJS replicando el menú de PS5 y dándole otro estilo.
 
 ## Instalación
 
-Sólo disponible en Desktop.
+Sólo disponible en Desktop
 
 ## Preview
 
