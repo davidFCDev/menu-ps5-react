@@ -1,9 +1,9 @@
 import React, { useContext, useRef } from 'react';
+import { AppContext } from '../App';
 import { user } from '../assets/images/index';
 import Clock from './Clock';
-import SearchIcon from './SearchIcon';
 import SettingsIcon from './SettingsIcon';
-import { AppContext } from '../App';
+import SearchIcon from './SearchIcon';
 import sonidoPs5 from '../assets/audios/audioPs5.mp3';
 
 const Header = () => {
@@ -19,16 +19,16 @@ const Header = () => {
             <div className='flex gap-16 font-semibold text-[20px]'>
                 <audio ref={audioRef} src={sonidoPs5}></audio>
                 <button 
-                    onClick={ async() => {
-                        await setRoute("home");
+                    onClick={ () => {
                         handleClick();
+                        setRoute("home");
                     }} 
                     className={ route === "home" ? "text-white" : "text-gray-300"}
                     >Games</button>
                 <button 
                     onClick={() => {
-                        setRoute("media");
                         handleClick();
+                        setRoute("media");
                     }} 
                     className={ route === "media" ? "text-white" : "text-gray-300"}
                     >Media</button>
