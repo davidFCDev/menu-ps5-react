@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
 import { motion } from 'framer-motion';
 import { links } from '../constants';
+import HorizontalScrollIcon from '../components/Scroll';
 
 const Media = () => {
     const [isHovering, setIsHovering] = useState(false);
@@ -20,7 +21,7 @@ const Media = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}>
-
+                <HorizontalScrollIcon />
                 <ul
                     style={{
                         scrollbarWidth: 'none',
@@ -30,7 +31,7 @@ const Media = () => {
                     onMouseOver={() => setIsHovering(true)}
                     onMouseOut={() => setIsHovering(false)}
                     onWheel={handleWheel}
-                    className='flex gap-10 my-10 mx-2 overflow-x-hidden'
+                    className='flex gap-10 my-2 mx-2 overflow-x-hidden'
                     >
                         {links.map((link, index) => (
                             <li 

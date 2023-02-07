@@ -30,6 +30,50 @@
   height: 100vh;
 }
 
+.horizontal-scroll-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 200px;
+  height: 50px;
+  left: 42%;
+}
+
+.horizontal-scroll-icon__animation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 200px;
+  height: 50px;
+}
+
+.horizontal-scroll-icon__animation .arrowicon {
+  font-size: 24px;
+  color: #000000;
+  position: absolute;
+  animation: horizontal-scroll-icon-animation 1s linear infinite;
+}
+
+.horizontal-scroll-icon__animation .arrowicon:first-child {
+  left: 0;
+}
+
+.horizontal-scroll-icon__animation .arrowicon:last-child {
+  right: 0;
+  animation-direction: reverse;
+}
+
+@keyframes horizontal-scroll-icon-animation {
+  from {
+    transform: translateX(25px) ;
+  }
+  to {
+    transform: translateX(-25px);
+  }
+}
+
 .user-shadow:hover {
   box-shadow: 0 0 15px white;
 }
