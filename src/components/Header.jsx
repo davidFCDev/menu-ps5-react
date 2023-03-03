@@ -1,10 +1,10 @@
 import React, { useContext, useRef } from 'react';
 import { AppContext } from '../App';
-import { user } from '../assets/images/index';
+import user from '../assets/images/user.png';
 import Clock from './Clock';
 import SettingsIcon from './SettingsIcon';
 import SearchIcon from './SearchIcon';
-import sonidoPs5 from '../assets/audios/audioPs5.mp3';
+import sonidoPs5 from '../assets/audios/sonidoPs.mp3';
 
 const Header = () => {
     const { route, setRoute } = useContext(AppContext);

@@ -1,36 +1,33 @@
-import { 
-    logoDestiny,
-    logoFallguys,
-    logoTlou,
-    logoFortnite,
-    logoGodofwar,
-    logoHorizon,
-    logoSpiderman,
-    fondoDestiny,
-    fondoFallguys,
-    fondoTlou,
-    fondoFortnite,
-    fondoGodofwar,
-    fondoHorizon,
-    fondoSpiderman
-} from '../assets/images/index';
+import logoTlou from '../assets/images/logoTlou.png';
+import logoDestiny from '../assets/images/logoDestiny.png';
+import logoSpiderman from '../assets/images/logoSpiderman.png';
+import logoGodofwar from '../assets/images/logoGodofwar.png';
+import logoFallguys from '../assets/images/logoFallguys.png';
+import logoFortnite from '../assets/images/logoFortnite.jpg';
+import logoHorizon from '../assets/images/logoHorizon.png';
+import fondoTlou from '../assets/images/fondoTlou.webp';
+import fondoDestiny from '../assets/images/fondoDestiny.webp';
+import fondoSpiderman from '../assets/images/fondoSpiderman.webp';
+import fondoGodofwar from '../assets/images/fondoGodofwar.webp';
+import fondoFallguys from '../assets/images/fondoFallguys.webp';
+import fondoFortnite from '../assets/images/fondoFortnite.webp';
+import fondoHorizon from '../assets/images/fondoHorizon.webp';
+import audioTlou from '../assets/audios/audioTlou.mp3';
+import audioDestiny from '../assets/audios/audioDestiny.mp3';
+import audioSpiderman from '../assets/audios/audioSpiderman.mp3';
+import audioGodofwar from '../assets/audios/audioGodofwar.mp3';
+import audioFallguys from '../assets/audios/audioFallguys.mp3';
+import audioFortnite from '../assets/audios/audioFortnite.mp3';
+import audioHorizon from '../assets/audios/audioHorizon.mp3';
 
-import {
-    audioHorizon,
-    audioTlou,
-    audioDestiny,
-    audioFallguys,
-    audioFortnite,
-    audioGodofwar,
-    audioSpiderman
-} from '../assets/audios/index';
+
 
 export const games = [
     {
         id: 'tlou',
         name: 'The last of us 2',
         text: '',
-        img: logoTlou,
+        img:logoTlou,
         bg: fondoTlou,
         avatar: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/The_Last_of_Us_Part_II_logo.svg/1280px-The_Last_of_Us_Part_II_logo.svg.png',
         card:'https://www.gamespot.com/a/uploads/original/1179/11799911/3685284-tlou15.jpeg',
